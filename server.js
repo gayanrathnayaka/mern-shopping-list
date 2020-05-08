@@ -30,7 +30,7 @@ app.use("/api/items", items);
 
 //set client app in the production eviorement
 
-if (process.env.NODE_DEV === "production") {
+if (process.env.NODE_ENV === "production") {
   //set the static folder
 
   app.use(express.static("client/build"));
