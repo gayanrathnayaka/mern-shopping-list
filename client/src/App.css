@@ -1,0 +1,38 @@
+.remove-btn {
+  margin-right: 0.5rem;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 1000ms ease-in;
+}
+
+::selection {
+  color: white;
+  background: rgb(202, 20, 20);
+}
+
+.navbar {
+  background-color: #dc3545 !important;
+}
+
+.btnAdd {
+  background-color: #35dccc;
+  border: #35dccc;
+}
